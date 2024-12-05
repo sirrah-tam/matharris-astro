@@ -1,0 +1,102 @@
+---
+import Layout from "../layouts/Layout.astro";
+import config from "../static/data.json";
+import "../styles/global.css";
+
+const response = await fetch(config.config.profile.api.url);
+const data = await response.json();
+let lastFour: any[] = [];
+const recentBadges = (badges: any) => {
+  let badgeNum = badges.length - 1;
+  let lastfourbadges = badges.length - 4;
+  for (let i = badgeNum; i >= lastfourbadges; i--) {
+    lastFour.push(badges[i]);
+  }
+};
+recentBadges(data.badges)
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <section class="container lg:max-w-4xl mx-auto py-14 px-4 lg:px-0">
+      <h1 class="text-center text-7xl mb-9">Study</h1>
+      <p class="text-center">Here is where I've done some of my learning!</p>
+      <h2 class="text-5xl my-9">{config.config.profile.name}</h2>
+      <div class="profile md:flex">
+        <div class="flex-1 mb-5 md:mb-0">
+          <div class="points">
+            <p id="totalpts" class="text-3xl font-bold">{data.points.total}</p>
+            <p class="total">Total Points</p>
+            <ul class="my-4 text-2xl">
+              <li>
+                <span class="fa fa-circle html"></span>HTML: {data.points.HTML}
+              </li>
+              <li>
+                <span class="fa fa-circle css"></span>CSS: {data.points.CSS}
+              </li>
+              <li>
+                <span class="fa fa-circle js"></span>JavaScript: {
+                  data.points.JavaScript
+                }
+              </li>
+              <li>
+                <span class="fa fa-circle wp"></span>Wordpress: {
+                  data.points.WordPress
+                }
+              </li>
+              <li>
+                <span class="fa fa-circle devtools"></span>Development Tools: {
+                  data.points["Development Tools"]
+                }
+              </li>
+              <li>
+                <span class="fa fa-circle php"></span>PHP: {data.points.PHP}
+              </li>
+            </ul>
+            <p>
+              <a href="https://teamtreehouse.com/matharris" target="_blank"
+                >See more at Team Treehouse >></a>
+            </p>
+          </div>
+        </div>
+        <div class="flex-1">
+          <div id="badges" class="badges">
+            <h3 class="text-2xl mb-4">Recent Badges</h3>
+            {lastFour.map((badge) => (
+              <div class="flex items-center">
+                <img src={badge.icon_url} alt="" class="w-20 mr-4"/>
+                <span>{badge.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+.html { background-color: #39add1; }
+
+.css { background-color: #3079ab; }
+
+.js { background-color: #C25975; }
+
+.wp { background-color: #838CC7; }
+
+.devtools { background-color: #637a91; }
+
+.php { background-color: #7D669E; }
+
+.fa-circle {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.profile li {
+  line-height: 2em;
+}
+</style>

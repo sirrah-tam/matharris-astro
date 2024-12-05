@@ -5,7 +5,6 @@ interface Props {
 
 const { title } = Astro.props;
 
-import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
 import config from '../static/data.json'
 ---
@@ -20,8 +19,7 @@ import config from '../static/data.json'
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="dark:bg-gray-900 dark:text-white text-xl">
-		<Header links={config.config.links} info={config.config.info}></Header>
+	<body class="dark:bg-gray-900 dark:text-white text-lg">
 		<slot />
 		<Footer contact={config.config.info.contact}></Footer>
 	</body>

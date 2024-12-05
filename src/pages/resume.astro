@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ResumeVue from '../components/Resume.vue';
+import config from '../static/data.json'
+import '../styles/global.css'
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+    <ResumeVue resume={config.config.resume}></ResumeVue>
+	</main>
+</Layout>
+
+<style>
+	
+</style>
