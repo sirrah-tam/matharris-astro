@@ -10,6 +10,7 @@ import {
 	CodeBracketIcon,
 	ClipboardDocumentListIcon,
 	ArrowTopRightOnSquareIcon,
+ClockIcon,
 } from "@heroicons/vue/24/solid";
 ---
 
@@ -26,7 +27,7 @@ import {
 					class="rounded-full mx-auto relative"
 					alt="Mat Harris Profile Picture"
 				/>
-				<p class="mt-14 text-3xl text-center leading-loose">
+				<p class="mt-14 text-3xl text-center">
 					Web Accessibility Specialist, front-end dev, studied Poli Sci & Int
 					Rel, anti-racist, midwest bred, DC based, <a
 						href="http://pronoun.is/he"
@@ -41,12 +42,21 @@ import {
 		</section>
 		<section>
 			<ul class="divide-y-4 divide-white border-y-4">
-				<li class="bg-emerald-800 hover:bg-slate-700">
+				<li class="bg-indigo-950 hover:bg-slate-700">
 					<a href="/about" class="block p-14 text-4xl">
 						<span class="flex container lg:max-w-4xl mx-auto">
 							<UserIcon
 								class="size-10 inline-block mr-4 align-text-top text-white"
 							/>About
+						</span>
+					</a>
+				</li>
+				<li class="bg-emerald-700 hover:bg-slate-700">
+					<a href="/now" class="block p-14 text-4xl">
+						<span class="flex container lg:max-w-4xl mx-auto">
+							<ClockIcon
+								class="size-10 inline-block mr-4 align-text-top text-white"
+							/>Now
 						</span>
 					</a>
 				</li>

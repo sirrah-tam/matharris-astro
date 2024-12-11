@@ -33,6 +33,10 @@
         "link": "/about"
       },
       {
+        "name": "Now",
+        "link": "/now"
+      },
+      {
         "name": "Projects",
         "link": "/projects"
       },
