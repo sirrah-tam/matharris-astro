@@ -20,7 +20,7 @@ import config from '../static/data.json'
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="bg-gray-900 text-white text-xl tracking-wide">
+	<body class="bg-gray-900 text-white text-xl tracking-wide leading-loose">
 		<Header links={config.config.links} info={config.config.info}></Header>
 		<slot />
 		<Footer contact={config.config.info.contact}></Footer>
