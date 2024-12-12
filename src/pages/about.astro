@@ -1,11 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import config from "../static/data.json";
 ---
 
 <Layout title="About Me | Mat Harris | Web Developer">
 	<main>
 		<section class="about container lg:max-w-4xl mx-auto py-14 px-4 lg:px-0">
 			<h1 id="about" class="text-center text-7xl mb-9">About Me</h1>
+			<img
+			src={config.config.info.gravatar}
+			class="rounded-full mx-auto relative mb-8"
+			alt="Mat Harris Profile Picture"
+		/>
 			<p class="mb-4">
 				I am a Web Accessibility Specialist and help lead the accessibility
 				strategy at <a href="https://www.ithaka.org/" target="_blank"
