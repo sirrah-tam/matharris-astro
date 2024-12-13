@@ -2,19 +2,30 @@
   <footer class="contact py-14">
     <div class="container lg:max-w-4xl mx-auto px-4 lg:px-0">
       <h2 class="text-4xl mb-6">Where Else To Find Me</h2>
-      <ul>
+      <ul class="border-y-4">
         <li v-for="item in contact" :key="item.index" class="py-2">
-          <strong>{{ item.type }}</strong>: <a :href="item.link">{{ item.display }} <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" /></a>
+          <strong>{{ item.type }}</strong>: <a :href="item.link">{{ item.display }}
+            <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" />
+          </a>
         </li>
       </ul>
-      <p class="mt-3">Built with Astro, Tailwind, and Vue</p>
-      
+      <p class="my-3">Built with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer"
+          class="underline">Astro
+          <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" />
+        </a>, <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" class="underline">Tailwind
+          <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" />
+        </a>, and <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" class="underline">Vue
+          <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" />
+        </a>. <a href="https://github.com/sirrah-tam/matharris-astro" class="underline">Source code
+          <CodeBracketIcon class="size-4 inline-block text-white align-text-top" />
+        </a> on GitHub.
+      </p>
     </div>
   </footer>
 </template>
 
 <script>
-import { ArrowTopRightOnSquareIcon } from '@heroicons/vue/24/solid'
+import { ArrowTopRightOnSquareIcon, CodeBracketIcon } from '@heroicons/vue/24/solid'
 
 export default {
   name: 'page-footer',
@@ -24,7 +35,8 @@ export default {
   },
 
   components: {
-    ArrowTopRightOnSquareIcon
+    ArrowTopRightOnSquareIcon,
+    CodeBracketIcon
   }
 }
 </script>
