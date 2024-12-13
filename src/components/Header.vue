@@ -16,7 +16,10 @@
 				</svg>
         </a>
       <main-nav :links="links" class="hidden md:block"></main-nav>
-      <main-nav :links="links" id="main-nav-mobile" class="md:hidden"></main-nav>
+      <details class="md:hidden">
+        <summary class="px-2 list-outside ml-8">Menu</summary>
+        <main-nav :links="links" id="main-nav-mobile"></main-nav>
+      </details>
       <!-- <button class="md:hidden" data-target="#main-nav-mobile" aria-controls="navbarToggleExternalContent" aria-expanded="false">
         Menu
       </button> -->
