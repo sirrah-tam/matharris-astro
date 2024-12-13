@@ -1,8 +1,8 @@
 <template lang="html">
   <footer class="contact py-14">
-    <div class="container lg:max-w-4xl mx-auto px-4 lg:px-0">
+    <div class="container lg:max-w-4xl mx-auto px-8 lg:px-0">
       <h2 class="text-4xl mb-6">Where Else To Find Me</h2>
-      <ul class="border-y-4">
+      <ul class="border-y-4 border-white">
         <li v-for="item in contact" :key="item.index" class="py-2">
           <strong>{{ item.type }}</strong>: <a :href="item.link">{{ item.display }}
             <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" />
