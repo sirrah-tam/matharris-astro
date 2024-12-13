@@ -15,11 +15,11 @@ import {
 
 <HomeLayout title="Mat Harris | Web Developer">
 	<main>
-		<section class="intro p-14">
+		<section class="intro px-4 py-8 md:p-14">
 			<div class="container lg:max-w-4xl mx-auto">
 				<!-- <Image src={backgroundUrl} alt="" class="bg-img"/> -->
 				<svg
-				class="logo"
+				class="logo h-28 lg:h-52"
 				width="100%"
 				height="100%"
 				viewBox="0 0 1121 896"
@@ -46,9 +46,9 @@ import {
 			</div>
 		</section>
 		<section>
-			<ul class="divide-y-4 divide-white border-y-4">
+			<ul class="divide-y-4 divide-white border-white border-y-4">
 				<li class="bg-gray-800 hover:bg-slate-700">
-					<a href="/about" class="block p-14 text-4xl">
+					<a href="/about" class="block px-4 py-8 md:p-14 text-4xl">
 						<span class="flex container lg:max-w-4xl mx-auto">
 							<UserIcon
 								class="size-10 inline-block mr-4 align-text-top text-white"
@@ -57,7 +57,7 @@ import {
 					</a>
 				</li>
 				<li class="bg-emerald-700 hover:bg-slate-700">
-					<a href="/now" class="block p-14 text-4xl">
+					<a href="/now" class="block px-4 py-8 md:p-14 text-4xl">
 						<span class="flex container lg:max-w-4xl mx-auto">
 							<ClockIcon
 								class="size-10 inline-block mr-4 align-text-top text-white"
@@ -66,7 +66,7 @@ import {
 					</a>
 				</li>
 				<li class="bg-teal-800 hover:bg-slate-700">
-					<a href="/projects" class="block p-14 text-4xl">
+					<a href="/projects" class="block px-4 py-8 md:p-14 text-4xl">
 						<span class="flex container lg:max-w-4xl mx-auto">
 							<CodeBracketIcon
 								class="size-10 inline-block align-text-top mr-4 text-white"
@@ -75,7 +75,7 @@ import {
 					</a>
 				</li>
 				<li class="bg-cyan-800 hover:bg-slate-700">
-					<a href="/study" class="block p-14 text-4xl">
+					<a href="/study" class="block px-4 py-8 md:p-14 text-4xl">
 						<span class="flex container lg:max-w-4xl mx-auto">
 							<BookOpenIcon
 								class="size-10 inline-block mr-4 align-text-top text-white"
@@ -84,7 +84,7 @@ import {
 					>
 				</li>
 				<li class="bg-sky-800 hover:bg-slate-700">
-					<a href="/resume" class="block p-14 text-4xl">
+					<a href="/resume" class="block px-4 py-8 md:p-14 text-4xl">
 						<span class="flex container lg:max-w-4xl mx-auto">
 							<ClipboardDocumentListIcon
 								class="size-10 inline-block mr-4 align-text-top text-white"
@@ -114,9 +114,5 @@ import {
 
 	.projects:hover {
 		@apply bg-slate-700;
-	}
-
-	.logo {
-		height: 200px;
 	}
 </style>
