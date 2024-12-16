@@ -11,7 +11,6 @@
             <img :src="project.image" :alt="project.name">
           </a>
           <figcaption class="mt-4 font-bold">{{ project.name }}</figcaption>
-          <a href="http://" target="_blank" rel="noopener noreferrer"></a>
         </figure>
         <p>Design by: <span v-html="project.designby"></span></p>
         <p>Made with: {{ project.madewith }}</p>
