@@ -53,32 +53,44 @@
       {
         "name": "Emily for Seattle (archived)",
         "link": "https://e4cc.sirrahtam.com/",
-        "image": "/images/e4cc.jpg"
+        "image": "/images/e4cc.jpg",
+        "designby": "Me",
+        "madewith": "Wordpress"
       },
       {
         "name": "Vivadoria",
         "link": "https://vivadoria.com/",
-        "image": "/images/vivadoria.jpg"
+        "image": "/images/vivadoria.jpg",
+        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+        "madewith": "FusionCMS (Laravel) + BigCommerce"
       },
       {
         "name": "SAMS Institute",
         "link": "https://samsinstitute.com/",
-        "image": "/images/samsinstitute.jpg"
+        "image": "/images/samsinstitute.jpg",
+        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+        "madewith": "FusionCMS (Laravel)"
       },
       {
         "name": "Inmedix",
         "link": "https://inmedix.com/",
-        "image": "/images/inmedix.png"
+        "image": "/images/inmedix.png",
+        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+        "madewith": "FusionCMS (Laravel)"
       },
       {
         "name": "SEAPAC Homes",
         "link": "https://seapachomes.com/",
-        "image": "/images/seapac-homes.png"
+        "image": "/images/seapac-homes.png",
+        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+        "madewith": "FusionCMS (PHP)"
       },
       {
         "name": "Tree of Life Accupuncture",
         "link": "https://treeoflife-acupuncture.com",
-        "image": "/images/treeoflife-acupuncture.png"
+        "image": "/images/treeoflife-acupuncture.png",
+        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+        "madewith": "FusionCMS (Laravel)"
       }
     ],
     "profile": {
