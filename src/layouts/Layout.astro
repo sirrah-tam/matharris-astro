@@ -14,11 +14,11 @@ import config from '../static/data.json'
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Mat Harris's personal website" />
+		<meta name="description" content=`The ${title} page on Mat Harris's personal website` />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+		<title>{title} | Mat Harris | Web Developer</title>
 	</head>
 	<body class="bg-gray-900 text-white text-xl tracking-wide leading-loose">
 		<Header links={config.config.links} info={config.config.info}></Header>
