@@ -22,7 +22,11 @@ import config from '../static/data.json'
 	</head>
 	<body class="bg-gray-900 text-white text-xl tracking-wide leading-loose">
 		<Header links={config.config.links} info={config.config.info}></Header>
-		<slot />
+		<main>
+			<section class="container lg:max-w-4xl mx-auto py-14 px-4 lg:px-0">
+				<slot />
+			</section>
+		</main>
 		<Footer contact={config.config.info.contact}></Footer>
 	</body>
 </html>
