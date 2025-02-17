@@ -1,8 +1,6 @@
 ---
 import HomeLayout from "../layouts/HomeLayout.astro";
-import config from "../static/data.json";
-// import { Image } from 'astro:assets';
-// import backgroundUrl from '../static/images/intro-bg.jpg';
+
 import {
 	UserIcon,
 	BookOpenIcon,
@@ -17,7 +15,6 @@ import {
 	<main>
 		<section class="intro px-4 py-8 md:p-14">
 			<div class="container lg:max-w-4xl mx-auto">
-				<!-- <Image src={backgroundUrl} alt="" class="bg-img"/> -->
 				<svg
 				class="logo h-28 lg:h-52"
 				width="100%"
@@ -74,21 +71,12 @@ import {
 						>
 					</a>
 				</li>
-				<li class="bg-sky-800 hover:bg-slate-700">
-					<a href="/posts" class="block px-4 py-8 md:p-14 text-4xl">
-						<span class="flex container lg:max-w-4xl mx-auto">
-							<ClipboardDocumentListIcon
-								class="size-10 inline-block mr-4 align-text-top text-white"
-							/>Posts</span
-						>
-					</a>
-				</li>
 				<li class="bg-cyan-800 hover:bg-slate-700">
-					<a href="/study" class="block px-4 py-8 md:p-14 text-4xl">
+					<a href="/blog" class="block px-4 py-8 md:p-14 text-4xl">
 						<span class="flex container lg:max-w-4xl mx-auto">
 							<BookOpenIcon
 								class="size-10 inline-block mr-4 align-text-top text-white"
-							/>Study</span
+							/>Blog</span
 						></a
 					>
 				</li>
