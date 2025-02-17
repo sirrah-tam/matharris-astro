@@ -1,5 +1,5 @@
 <template lang="html">
-  <footer class="contact py-14">
+  <footer class="contact py-14 text-white">
     <div class="container lg:max-w-4xl mx-auto px-8 lg:px-0">
       <h2 class="text-4xl mb-6">Where Else To Find Me</h2>
       <ul class="border-y-4 border-white">

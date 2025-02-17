@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-slate-800">
+  <header class="bg-slate-800 text-white">
     <div class="container lg:max-w-4xl mx-auto py-4 md:flex flex-1 justify-between">
       <a href="/" class="block p-3 font-bold">
         <svg

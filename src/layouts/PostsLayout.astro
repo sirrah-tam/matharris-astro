@@ -23,9 +23,9 @@ import "../styles/global.css";
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | Mat Harris | Web Developer</title>
 	</head>
-	<body class="bg-gray-900 text-white text-xl tracking-wide leading-loose">
+	<body class="text-xl tracking-wide leading-loose">
 		<Header links={config.config.links} info={config.config.info}></Header>
-		<main>
+		<main class="dark:bg-gray-900 dark:text-white">
 			<section class="container lg:max-w-4xl mx-auto py-14 px-4 lg:px-0">
 				<a href="/blog" class="block text-xl mb-9">&lt; Back to all posts</a>
 				<h1 class="text-center text-7xl mb-9">{title}</h1>
