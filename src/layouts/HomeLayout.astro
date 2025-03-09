@@ -6,7 +6,7 @@ interface Props {
 const { title } = Astro.props;
 
 import Footer from '../components/Footer.vue';
-import config from '../static/data.json'
+import data from '../static/data.json'
 import "../styles/global.css";
 ---
 
@@ -24,7 +24,7 @@ import "../styles/global.css";
 	</head>
 	<body class="bg-gray-900 text-white text-lg tracking-wide leading-loose">
 		<slot />
-		<Footer contact={config.config.info.contact}></Footer>
+		<Footer contact={data.info.contact}></Footer>
 	</body>
 </html>
 <style>

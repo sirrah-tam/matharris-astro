@@ -1,6 +1,6 @@
 ---
-import config from "../static/data.json";
-const response = await fetch(config.config.profile.api.url);
+import info from "../static/data.json";
+const response = await fetch(info.profile.api.url);
 const data = await response.json();
 let lastFour: any[] = [];
 const recentBadges = (badges: any) => {
@@ -13,7 +13,7 @@ const recentBadges = (badges: any) => {
 recentBadges(data.badges);
 ---
 
-<h2 class="text-5xl my-9">{config.config.profile.name}</h2>
+<h2 class="text-5xl my-9">{info.profile.name}</h2>
 <div class="profile md:flex">
   <div class="flex-1 mb-5 md:mb-0">
     <div class="points">

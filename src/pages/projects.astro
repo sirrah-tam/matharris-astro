@@ -1,11 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import ProjectsVue from '../components/Projects.vue';
-import config from '../static/data.json'
+import data from '../static/data.json'
 ---
 
 <Layout title="Projects">
-	<ProjectsVue projects={config.config.projects}></ProjectsVue>
+	<ProjectsVue projects={data.projects}></ProjectsVue>
 </Layout>
 
 <style>

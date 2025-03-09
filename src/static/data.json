@@ -1,164 +1,162 @@
 {
-  "config": {
-    "info": {
-      "siteName": "Mat Harris",
-      "about": "About me this is a paragraph",
-      "gravatar": "https://www.gravatar.com/avatar/6346dcbd2067cc872dc03286a69612fb?s=350",
-      "contact": [
-        {
-          "type": "Email",
-          "link": "mailto:matharris@sirrahtam.com",
-          "display": "matharris@sirrahtam.com"
-        },
-        {
-          "type": "Bluesky",
-          "link": "https://bsky.app/profile/matharris.dev",
-          "display": "@matharris.dev"
-        },
-        {
-          "type": "Mastodon",
-          "link": "https://a11y.info/@matharris",
-          "display": "https://a11y.info/@matharris"
-        },
-        {
-          "type": "Github",
-          "link": "https://github.com/sirrah-tam",
-          "display": "https://github.com/sirrah-tam"
-        }
-      ]
+  "info": {
+    "siteName": "Mat Harris",
+    "about": "About me this is a paragraph",
+    "gravatar": "https://www.gravatar.com/avatar/6346dcbd2067cc872dc03286a69612fb?s=350",
+    "contact": [
+      {
+        "type": "Email",
+        "link": "mailto:matharris@sirrahtam.com",
+        "display": "matharris@sirrahtam.com"
+      },
+      {
+        "type": "Bluesky",
+        "link": "https://bsky.app/profile/matharris.dev",
+        "display": "@matharris.dev"
+      },
+      {
+        "type": "Mastodon",
+        "link": "https://a11y.info/@matharris",
+        "display": "https://a11y.info/@matharris"
+      },
+      {
+        "type": "Github",
+        "link": "https://github.com/sirrah-tam",
+        "display": "https://github.com/sirrah-tam"
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "About",
+      "link": "/about"
     },
-    "links": [
-      {
-        "name": "About",
-        "link": "/about"
-      },
-      {
-        "name": "Now",
-        "link": "/now"
-      },
-      {
-        "name": "Projects",
-        "link": "/projects"
-      },
-      {
-        "name": "Posts",
-        "link": "/posts"
-      },
-      {
-        "name": "Resume",
-        "link": "/resume"
-      }
-    ],
-    "projects": [
-      {
-        "name": "Emily for Seattle (archived)",
-        "link": "https://e4cc.sirrahtam.com/",
-        "image": "/images/e4cc.jpg",
-        "designby": "Me",
-        "madewith": "Wordpress"
-      },
-      {
-        "name": "Vivadoria",
-        "link": "https://vivadoria.com/",
-        "image": "/images/vivadoria.jpg",
-        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
-        "madewith": "FusionCMS (Laravel) + BigCommerce"
-      },
-      {
-        "name": "SAMS Institute",
-        "link": "https://samsinstitute.com/",
-        "image": "/images/samsinstitute.jpg",
-        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
-        "madewith": "FusionCMS (Laravel)"
-      },
-      {
-        "name": "Inmedix",
-        "link": "https://inmedix.com/",
-        "image": "/images/inmedix.png",
-        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
-        "madewith": "FusionCMS (Laravel)"
-      },
-      {
-        "name": "SEAPAC Homes",
-        "link": "https://seapachomes.com/",
-        "image": "/images/seapac-homes.png",
-        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
-        "madewith": "FusionCMS (PHP)"
-      },
-      {
-        "name": "Tree of Life Accupuncture",
-        "link": "https://treeoflife-acupuncture.com",
-        "image": "/images/treeoflife-acupuncture.png",
-        "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
-        "madewith": "FusionCMS (Laravel)"
-      }
-    ],
-    "profile": {
-      "name": "Team Treehouse",
-        "handle": "teamtreehouse",
-        "api": {
-          "url": "https://teamtreehouse.com/profiles/matharris.json",
-          "type": "GET",
-          "async": true
-        },
-        "link": "https://teamtreehouse.com/matharris",
-        "link_text": "See more at Team Treehouse >>",
-        "logo": "/images/tth-logo.png"
-      },
-    "resume": {
-      "experience": [
-        {
-          "company": "ITHAKA",
-          "title": "Web Accessibility Lead - Sept ‘22 - Present",
-          "description": [
-            "Lead accessibility strategy for JSTOR, Artstor, Portico, ITHAKA S&R",
-            "Partner with participant experience and user support services teams"
-          ]
-        },
-        {
-          "company": "Level Access",
-          "title": "Accessibility Consultant - Aug ‘19 - Sept ‘22",
-          "description": [
-            "Industry Lead, Enterprise Financial Sector (>1,000 employees)",
-            "Accessibility lead for 15+ accounts",
-            "Facilitating agile transformations in accessibility"
-          ]
-        },
-        {
-          "company": "efelle creative",
-          "title": "Front-end Developer - Nov ‘15 – Aug ‘19",
-          "description": [
-            "Built and launched 30+ sites using a proprietary CMS with HTML/CSS/JS/PHP",
-            "Worked collaboratively with designers and account managers",
-            "Researched and developed company wide accessibility best practices"
-          ]
-        },
-        {
-          "company": "American Association of Colleges of Nursing",
-          "title": "Program Assistant - March ‘13 – Apr ‘14 | Student Services Coordinator – Apr ‘14 - Jan ‘16",
-          "description": [
-            "Built and managed NursingCAS database and websites",
-            "Maintained relationship with software development vendor",
-            "Designed marketing materials"
-          ]
-        }
-      ],
-      "education": [
-        {
-          "college": "Linköping Universitet",
-          "years": "Linköping, Sweden (2010 – 2012)",
-          "degree": "Master's Degree of Social Science, Political Science, International and European Relations",
-          "thesis": "Thesis - Government’s Role in Education on Citizenship Development - A Comparative Study of the United States and Sweden's Educational Systems"
-        },
-        {
-          "college": "University of Illinois Springfield",
-          "years": "Springfield, Illinois (2007 – 2009)",
-          "degree": "Bachelor of Arts in Political Studies"
-        }
-      ],
-      "skills": [
-        "WCAG 2.2, Section 508, WAI-ARIA, VPAT/ACRs, Agile Methodologies, HTML5, CSS3, JavaScript, Adobe Creative Suite, Git"
-      ]
+    {
+      "name": "Now",
+      "link": "/now"
+    },
+    {
+      "name": "Projects",
+      "link": "/projects"
+    },
+    {
+      "name": "Posts",
+      "link": "/posts"
+    },
+    {
+      "name": "Resume",
+      "link": "/resume"
     }
+  ],
+  "projects": [
+    {
+      "name": "Emily for Seattle (archived)",
+      "link": "https://e4cc.sirrahtam.com/",
+      "image": "/images/e4cc.jpg",
+      "designby": "Me",
+      "madewith": "Wordpress"
+    },
+    {
+      "name": "Vivadoria",
+      "link": "https://vivadoria.com/",
+      "image": "/images/vivadoria.jpg",
+      "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+      "madewith": "FusionCMS (Laravel) + BigCommerce"
+    },
+    {
+      "name": "SAMS Institute",
+      "link": "https://samsinstitute.com/",
+      "image": "/images/samsinstitute.jpg",
+      "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+      "madewith": "FusionCMS (Laravel)"
+    },
+    {
+      "name": "Inmedix",
+      "link": "https://inmedix.com/",
+      "image": "/images/inmedix.png",
+      "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+      "madewith": "FusionCMS (Laravel)"
+    },
+    {
+      "name": "SEAPAC Homes",
+      "link": "https://seapachomes.com/",
+      "image": "/images/seapac-homes.png",
+      "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+      "madewith": "FusionCMS (PHP)"
+    },
+    {
+      "name": "Tree of Life Accupuncture",
+      "link": "https://treeoflife-acupuncture.com",
+      "image": "/images/treeoflife-acupuncture.png",
+      "designby": "<a href=\"https://www.seattlewebdesign.com/\" class=\"underline\"target=\"_blank\" rel=\"noopener noreferrer\">efelle creative</a>",
+      "madewith": "FusionCMS (Laravel)"
+    }
+  ],
+  "profile": {
+    "name": "Team Treehouse",
+      "handle": "teamtreehouse",
+      "api": {
+        "url": "https://teamtreehouse.com/profiles/matharris.json",
+        "type": "GET",
+        "async": true
+      },
+      "link": "https://teamtreehouse.com/matharris",
+      "link_text": "See more at Team Treehouse >>",
+      "logo": "/images/tth-logo.png"
+    },
+  "resume": {
+    "experience": [
+      {
+        "company": "ITHAKA",
+        "title": "Web Accessibility Lead - Sept ‘22 - Present",
+        "description": [
+          "Lead accessibility strategy for JSTOR, Artstor, Portico, ITHAKA S&R",
+          "Partner with participant experience and user support services teams"
+        ]
+      },
+      {
+        "company": "Level Access",
+        "title": "Accessibility Consultant - Aug ‘19 - Sept ‘22",
+        "description": [
+          "Industry Lead, Enterprise Financial Sector (>1,000 employees)",
+          "Accessibility lead for 15+ accounts",
+          "Facilitating agile transformations in accessibility"
+        ]
+      },
+      {
+        "company": "efelle creative",
+        "title": "Front-end Developer - Nov ‘15 – Aug ‘19",
+        "description": [
+          "Built and launched 30+ sites using a proprietary CMS with HTML/CSS/JS/PHP",
+          "Worked collaboratively with designers and account managers",
+          "Researched and developed company wide accessibility best practices"
+        ]
+      },
+      {
+        "company": "American Association of Colleges of Nursing",
+        "title": "Program Assistant - March ‘13 – Apr ‘14 | Student Services Coordinator – Apr ‘14 - Jan ‘16",
+        "description": [
+          "Built and managed NursingCAS database and websites",
+          "Maintained relationship with software development vendor",
+          "Designed marketing materials"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "college": "Linköping Universitet",
+        "years": "Linköping, Sweden (2010 – 2012)",
+        "degree": "Master's Degree of Social Science, Political Science, International and European Relations",
+        "thesis": "Thesis - Government’s Role in Education on Citizenship Development - A Comparative Study of the United States and Sweden's Educational Systems"
+      },
+      {
+        "college": "University of Illinois Springfield",
+        "years": "Springfield, Illinois (2007 – 2009)",
+        "degree": "Bachelor of Arts in Political Studies"
+      }
+    ],
+    "skills": [
+      "WCAG 2.2, Section 508, WAI-ARIA, VPAT/ACRs, Agile Methodologies, HTML5, CSS3, JavaScript, Adobe Creative Suite, Git"
+    ]
   }
 }

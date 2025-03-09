@@ -7,7 +7,7 @@ const { title } = Astro.props;
 
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
-import config from '../static/data.json'
+import data from '../static/data.json'
 import "../styles/global.css";
 ---
 
@@ -22,13 +22,13 @@ import "../styles/global.css";
 		<title>{title} | Mat Harris</title>
 	</head>
 	<body class="text-xl tracking-wide leading-loose">
-		<Header links={config.config.links} info={config.config.info}></Header>
+		<Header links={data.links} info={data.info}></Header>
 		<main class="dark:bg-gray-900 dark:text-white">
 			<section class="container lg:max-w-4xl mx-auto py-14 px-4 lg:px-0">
 				<slot />
 			</section>
 		</main>
-		<Footer contact={config.config.info.contact}></Footer>
+		<Footer contact={data.info.contact}></Footer>
 	</body>
 </html>
 <style>

@@ -1,11 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import ResumeVue from '../components/Resume.vue';
-import config from '../static/data.json'
+import data from '../static/data.json'
 ---
 
 <Layout title="Resume">
-	<ResumeVue resume={config.config.resume}></ResumeVue>
+	<ResumeVue resume={data.resume}></ResumeVue>
 </Layout>
 
 <style>
