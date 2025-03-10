@@ -17,11 +17,26 @@ import "../styles/global.css";
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content=`A blog post entitled "${title}" on Mat Harris's personal website` />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | Mat Harris</title>
+		<meta name="description" content=`A blog post entitled "${title}" on Mat Harris's personal website` />
+
+		<!-- Facebook Meta Tags -->
+		<meta property="og:url" content={Astro.url}>
+		<meta property="og:type" content="website">
+		<meta property="og:title" content={title}>
+		<meta property="og:description" content=`A blog post entitled "${title}" on Mat Harris's personal website`>
+		<meta property="og:image" content="/images/social-banner.png">
+
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:domain" content="matharris.dev">
+		<meta property="twitter:url" content={Astro.url}>
+		<meta name="twitter:title" content={title}>
+		<meta name="twitter:description" content=`A blog post entitled "${title}" on Mat Harris's personal website`>
+		<meta name="twitter:image" content="/images/social-banner.png">
 	</head>
 	<body class="text-xl tracking-wide leading-loose">
 		<Header links={data.links} info={data.info}></Header>
