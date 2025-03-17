@@ -4,7 +4,7 @@
       <h2 class="text-4xl mb-6">Where Else To Find Me</h2>
       <ul class="border-y-4 border-white">
         <li v-for="item in contact" :key="item.index" class="py-2">
-          <strong>{{ item.type }}</strong>: <a :href="item.link">{{ item.display }}
+          <strong>{{ item.type }}</strong>: <a :href="item.link" rel="me">{{ item.display }}
             <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" />
           </a>
         </li>
