@@ -18,8 +18,9 @@
           <ArrowTopRightOnSquareIcon class="size-4 inline-block text-white align-text-top" />
         </a>. <a href="https://github.com/sirrah-tam/matharris-astro" class="underline">Source code
           <CodeBracketIcon class="size-4 inline-block text-white align-text-top" />
-        </a> on GitHub.
+        </a> on GitHub. 
       </p>
+      <p><a href="/accessibility" class="underline">Accessibility Statement</a></p>
     </div>
   </footer>
 </template>
