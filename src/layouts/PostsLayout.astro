@@ -2,15 +2,17 @@
 interface Props {
 	title: string,
 	author: string,
-	date: string
+	date: string,
+	description: string
 }
 
-const { title, author } = Astro.props;
+const { title, author, description } = Astro.props;
 
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
 import data from '../static/data.json'
 import "../styles/global.css";
+import '@fontsource-variable/league-spartan';
 ---
 
 <!doctype html>
@@ -21,7 +23,7 @@ import "../styles/global.css";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title} | Mat Harris</title>
-		<meta name="description" content=`A blog post entitled "${title}" on Mat Harris's personal website` />
+		<meta name="description" content={description} />
 
 		<!-- Facebook Meta Tags -->
 		<meta property="og:url" content={Astro.url}>
