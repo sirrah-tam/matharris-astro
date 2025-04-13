@@ -110,26 +110,30 @@
         "company": "ITHAKA",
         "title": "Web Accessibility Lead - Sept ‘22 - Present",
         "description": [
-          "Lead accessibility strategy for JSTOR, Artstor, Portico, ITHAKA S&R",
-          "Partner with participant experience and user support services teams"
+          "Lead accessibility strategy for ITHAKA's Product & Design including JSTOR, Portico, & ITHAKA S&R.",
+          "Partner with participant and user support service teams in responding to requests about our current Section 508 and WCAG compliance.",
+          "Conduct accessibility training for content creators, designers, front-end engineers, and quality assurance team members.",
+          "Perform accessibility audits as part of our VPAT/ACR authoring as well as alongside product teams within the software delivery lifecycle."
         ]
       },
       {
         "company": "Level Access",
         "title": "Accessibility Consultant - Aug ‘19 - Sept ‘22",
         "description": [
-          "Industry Lead, Enterprise Financial Sector (>1,000 employees)",
-          "Accessibility lead for 15+ accounts",
-          "Facilitating agile transformations in accessibility"
+          "Main accessibility point of contact for  Enterprise Financial Sector clients (e.g. Banks, Insurance companies >1,000 employees).",
+          "Led accessibility initiatives for 15+ accounts, ensuring compliance with WCAG.",
+          "Facilitated agile transformations in accessibility, embedding with development teams.",
+          "Conducted accessibility audits and collaborated on remediation strategies."
         ]
       },
       {
         "company": "efelle creative",
         "title": "Front-end Developer - Nov ‘15 – Aug ‘19",
         "description": [
-          "Built and launched 30+ sites using a proprietary CMS with HTML/CSS/JS/PHP",
-          "Worked collaboratively with designers and account managers",
-          "Researched and developed company wide accessibility best practices"
+          "Developed and launched 30+ websites using proprietary CMS with HTML, CSS, JavaScript, and PHP.",
+          "Integrated accessibility best practices into web development workflows.",
+          "Performed code review for accessibility compliance and provided actionable feedback.",
+          "Worked closely with designers and account managers to ensure accessible user experiences."
         ]
       },
       {
@@ -156,7 +160,7 @@
       }
     ],
     "skills": [
-      "WCAG 2.2, Section 508, WAI-ARIA, VPAT/ACRs, Agile Methodologies, HTML5, CSS3, JavaScript, Adobe Creative Suite, Git"
+      "WCAG 2.2, Section 508, EN 301 549, WAI-ARIA, VPAT/ACRs, Agile Methodologies, HTML5, CSS3, JavaScript, Git, Accessibility Testing Tools, Assistive Technologies (Screen Readers, Voice Recognition Software), Adobe Creative Suite."
     ]
   }
 }

@@ -7,7 +7,7 @@
         <h3 class="text-3xl mt-6">{{ experience.company }}</h3>
         <p v-if="experience.title">{{ experience.title }}</p>
         <ul class="list-disc list-inside">
-          <li v-for="item in experience.description" :key="item">{{ item }}</li>
+          <li v-for="item in experience.description" :key="item" class="mb-3">{{ item }}</li>
         </ul>
       </div>
     </div>
