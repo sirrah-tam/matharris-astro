@@ -43,4 +43,4 @@ These technologies are relied upon for conformance with the accessibility standa
 
 ### Date
 
-This statement was updated on 27 April 2025 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/).
+This statement was updated on 27 April 2025 and was initally created using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/).
