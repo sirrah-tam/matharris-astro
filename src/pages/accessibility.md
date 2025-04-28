@@ -18,7 +18,7 @@ There are a few known issues that are in the process of being addressed:
 
 * Icons used to indicate links open in a new tab don't have a textual equivalent.
 * There are some pages that are only able to be accessed in a single way, I'm working on getting a styled sitemap page.
-* There are navigation links that are repeated across inner pages that don't have a bypass link, there are less than 6 which is my bar for requiring a skip link.
+* There are navigation links that are repeated across inner pages that don't have a bypass link.
 
 ### Feedback
 
