@@ -11,7 +11,14 @@ This is an accessibility statement from Mat Harris.
 
 ### Conformance status
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. This website is fully conformant with WCAG 2.1 level AA. Fully conformant means that the content fully conforms to the accessibility standard without any exceptions.
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. This website is strives to be conformant with WCAG 2.1 level AA.
+
+### Known issues
+There are a few known issues that are in the process of being addressed:
+
+* Icons used to indicate links open in a new tab don't have a textual equivalent.
+* There are some pages that are only able to be accessed in a single way, I'm working on getting a styled sitemap page.
+* There are navigation links that are repeated across inner pages that don't have a bypass link, there are less than 6 which is my bar for requiring a skip link.
 
 ### Feedback
 
@@ -36,4 +43,4 @@ These technologies are relied upon for conformance with the accessibility standa
 
 ### Date
 
-This statement was created on 17 March 2025 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/).
+This statement was updated on 27 April 2025 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/).
