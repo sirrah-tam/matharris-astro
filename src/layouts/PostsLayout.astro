@@ -41,8 +41,12 @@ import '@fontsource-variable/league-spartan';
 		<meta name="twitter:image" content="/images/social-banner.png">
 	</head>
 	<body class="text-xl tracking-wide leading-loose">
+		<a
+			class="transition left-0 text-white absolute p-3 m-3 -translate-y-16 focus:translate-y-0"
+			href="#main-content">Skip Navigation</a
+		>
 		<Header links={data.links} info={data.info}></Header>
-		<main class="dark:bg-gray-900 dark:text-white">
+		<main class="dark:bg-gray-900 dark:text-white" id="main-content">
 			<section class="container lg:max-w-4xl mx-auto py-14 px-4 lg:px-0">
 				<a href="/posts" class="block text-xl mb-9">&lt; Back to all posts</a>
 				<h1 class="text-center text-7xl mb-9">{title}</h1>
