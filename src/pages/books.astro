@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="2025 Books I've Read">
+  <h1 id="about" class="text-center text-7xl mb-9">2025 Books I've Read</h1>
+  <p>Here's a list of books I've read in 2025. To see what I'm reading now checkout my <a href="/now">now</a> page.</p>
+  <p>If I'm not able to get something from my local library via <a href="https://libbyapp.com/">Libby</a>, I try to support local bookstores by using <a href="https://bookshop.org/" target="_blank" rel="noopener noreferrer">Bookshop.org</a> for physical books, and I use <a href="https://libro.fm/" target="_blank" rel="noopener noreferrer">Libro.fm</a> for audiobooks.</p>
+  <ol>
+    <li><a href="https://libro.fm/audiobooks/9780593408537-the-anthropocene-reviewed" target="_blank" rel="noopener noreferrer">The Anthropocene Reviewed by John Green</a> (Audiobook)</li>
+    <li><a href="https://maketime.blog/" target="_blank" rel="noopener noreferrer">Make Time: How to Focus on What Matters Every Day by Jake Knapp, John Zeratsky</a> (eBook)</li>
+    <li><a href="https://libro.fm/audiobooks/9781250403155/" target="_blank" rel="noopener noreferrer">Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism by Sarah Wynn-Williams</a> (Audiobook)</li>
+    <li><a href="https://bookshop.org/p/books/redshirts-a-novel-with-three-codas-john-scalzi/126138ee361054ad" target="_blank" rel="noopener noreferrer">Redshirts by John Scalzi</a> (eBook)</li>
+    <li><a href="https://libro.fm/audiobooks/9781668637838-dawn" target="_blank" rel="noopener noreferrer">Dawn (Xenogenesis #1) by Octavia E. Butler</a> (Audiobook)</li>
+    <li><a href="https://libro.fm/audiobooks/9781668642702-alien-clay" target="_blank" rel="noopener noreferrer">Alien Clay by Adrian Tchaikovsky</a> (Audiobook) - Recently finished</li>
+    <li><a href="https://bookshop.org/p/books/notes-on-a-nervous-planet-matt-haig/6675449?ean=9780525505211&digital=t" target="_blank" rel="noopener noreferrer">Notes on a Nervous Planet by Matt Haig</a> (eBook)</li>
+    <li><a href="https://bookshop.org/p/books/translation-state/18928288?ean=9780316289719" target="_blank" rel="noopener noreferrer">Translation State by Ann Leckie</a> (Physical book)</li>
+  </ol>
+  <p>Last updated: Sept 20, 2025</p>
+</Layout>
+
+<style>
+  @reference "../styles/global.css";
+  a {
+    @apply underline;
+  }
+
+  ol {
+    @apply my-10 list-decimal list-inside;
+  }
+</style>
