@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "title": "The Anthropocene Reviewed",
+    "author": "John Green",
+    "url": "https://libro.fm/audiobooks/9780593408537-the-anthropocene-reviewed",
+    "type": "audiobook"
+  },
+  {
+    "id": "2",
+    "title": "Make Time: How to Focus on What Matters Every Day",
+    "author": "Jake Knapp, John Zeratsky",
+    "url": "https://maketime.blog/",
+    "type": "ebook"
+  },
+  {
+    "id": "3",
+    "title": "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism",
+    "author": "Sarah Wynn-Williams",
+    "url": "https://libro.fm/audiobooks/9781250403155/",
+    "type": "audiobook"
+  },
+  {
+    "id": "4",
+    "title": "Redshirts",
+    "author": "John Scalzi",
+    "url": "https://bookshop.org/p/books/redshirts-a-novel-with-three-codas-john-scalzi/126138ee361054ad",
+    "type": "ebook"
+  },
+  {
+    "id": "5",
+    "title": "Dawn (Xenogenesis #1)",
+    "author": "Octavia E. Butler",
+    "url": "https://libro.fm/audiobooks/9781668637838-dawn",
+    "type": "audiobook"
+  },
+  {
+    "id": "6",
+    "title": "Alien Clay",
+    "author": "Adrian Tchaikovsky",
+    "url": "https://libro.fm/audiobooks/9781668642702-alien-clay",
+    "type": "audiobook"
+  },
+  {
+    "id": "7",
+    "title": "Notes on a Nervous Planet",
+    "author": "Matt Haig",
+    "url": "https://bookshop.org/p/books/notes-on-a-nervous-planet-matt-haig/6675449?ean=9780525505211&digital=t",
+    "type": "ebook"
+  },
+  {
+    "id": "8",
+    "title": "Translation State",
+    "author": "Ann Leckie",
+    "url": "https://bookshop.org/p/books/translation-state/18928288?ean=9780316289719",
+    "type": "physical"
+  }
+]
