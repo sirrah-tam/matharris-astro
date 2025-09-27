@@ -13,6 +13,10 @@ const books = defineCollection({
   loader: file("src/content/books/books.json" ),
 });
 
+const updates = defineCollection({
+  loader: file("src/content/updates/updates.json" ),
+});
+
 
 // 4. Export a single `collections` object to register your collection(s)
-export const collections = { blog, books };
+export const collections = { blog, books, updates };

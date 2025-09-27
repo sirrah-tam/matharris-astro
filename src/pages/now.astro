@@ -1,5 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { getCollection } from 'astro:content';
+const updates = (await getCollection('updates')).sort(
+  (a, b) =>  b.data.id - a.data.id,
+)
 ---
 
 <Layout title="Now">
@@ -8,10 +12,10 @@ import Layout from "../layouts/Layout.astro";
   <p>Here are some of things I'm doing / watching / reading right now!</p>
   <p class="mb-8">(This is a <a href="https://nownownow.com/about" target="_blank">now page</a> and if you have your own site, you should make one, too!).</p>
   <h2 class="mb-4 text-4xl">Current vibes:</h2>
-  <p class="mb-8">A lot has changed since my last update. What was supposed to be a short summer in Portland turned into a permanent move after my partner got a job offer with the State of Oregon. We even bought a house and are now officially NoPos (North Portlanders)! Couldn't be happier!</p>
+  <p class="mb-4">{updates[0].data.content}</p>
+  <a href="/updates" class="block mb-8">View earlier updates</a>
   <h2 class="mb-4 text-4xl">Currently reading: </h2>
   <ul>
-    <li><a href="/books">2025 Books list</a></li>
     <li>Audiobooks: 
       <ul class="ml-4 mb-2">
         <li>Recently finished: <a href="https://libro.fm/audiobooks/9781668642702-alien-clay">Alien Clay by Adrian Tchaikovsky</a></li>
@@ -28,6 +32,7 @@ import Layout from "../layouts/Layout.astro";
         <li>Recently finished: <a href="https://bookshop.org/p/books/translation-state/18928288?ean=9780316289719" target="_blank" rel="noopener noreferrer">Translation State by Ann Leckie</a></li>
       </ul> 
     </li>
+    <li><a href="/books">2025 Books list</a></li>
   </ul>
   <h2 class="mb-4 text-4xl">Watching / playing / listening:</h2>
   <ul>
@@ -67,9 +72,6 @@ import Layout from "../layouts/Layout.astro";
 
 <style>
   @reference "../styles/global.css";
-  a {
-    @apply underline;
-  }
 
   ul {
     @apply mb-10 list-disc list-inside;
