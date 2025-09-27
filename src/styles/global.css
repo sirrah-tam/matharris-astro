@@ -4,3 +4,7 @@
 @theme {
   --font-sans: 'League Spartan Variable', 'sans-serif';
 }
+
+a {
+  @apply underline decoration-4 underline-offset-4;
+}
