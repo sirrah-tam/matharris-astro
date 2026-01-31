@@ -1,6 +1,8 @@
 <template lang="html">
   <h1 class="text-7xl text-center">Resume</h1>
   <div v-for="(value, key) in resume" :key="key">
+    <h2 class="text-5xl mt-7 pb-3 border-b-2">Professional Statement</h2>
+    <p>Accessibility advocate with a passion for integrating accessibility into workflows, ensuring digital products are universally usable and compliant with industry standards.</p>
     <h2 class="text-5xl mt-7 pb-3 border-b-2">{{ key[0].toUpperCase() + key.substring(1) }}</h2>
     <div v-if="key == 'experience'">
       <div v-for="experience in value" :key="experience.company">

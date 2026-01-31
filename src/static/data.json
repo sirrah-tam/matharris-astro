@@ -110,10 +110,11 @@
         "company": "ITHAKA",
         "title": "Web Accessibility Lead - Sept ‘22 - Present",
         "description": [
-          "Lead accessibility strategy for ITHAKA's Product & Design including JSTOR, Portico, & ITHAKA S&R.",
-          "Partner with participant and user support service teams in responding to requests about our current Section 508 and WCAG compliance.",
-          "Conduct accessibility training for content creators, designers, front-end engineers, and quality assurance team members.",
-          "Perform accessibility audits as part of our VPAT/ACR authoring as well as alongside product teams within the software delivery lifecycle."
+          "Lead ITHAKA’s accessibility strategy across five product lines, ensuring compliance with WCAG, Section 508, and EN 301 549 standards.",
+          "Authored and delivered comprehensive accessibility audit reports (supporting VPAT/ACR documentation) and provided compliance consultation to support teams..",
+          "Championed accessibility by establishing and leading an Accessibility Guild and conducting formal training for content, design, engineering, and QA teams.",
+          "Enhanced product quality by implementing an automated accessibility testing gate within the GitLab CI/CD pipeline, preventing production defects.",
+          "Delivered technical solutions and bug fixes using semantic HTML, WAI-ARIA, CSS, and JavaScript, and coordinated accessibility integration within the open-source Pharos design system."
         ]
       },
       {
