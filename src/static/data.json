@@ -28,7 +28,7 @@
   },
   "links": [
     {
-      "name": "About",
+      "name": "Aboutt",
       "link": "/about"
     },
     {
@@ -94,16 +94,16 @@
   ],
   "profile": {
     "name": "Team Treehouse",
-      "handle": "teamtreehouse",
-      "api": {
-        "url": "https://teamtreehouse.com/profiles/matharris.json",
-        "type": "GET",
-        "async": true
-      },
-      "link": "https://teamtreehouse.com/matharris",
-      "link_text": "See more at Team Treehouse >>",
-      "logo": "/images/tth-logo.png"
+    "handle": "teamtreehouse",
+    "api": {
+      "url": "https://teamtreehouse.com/profiles/matharris.json",
+      "type": "GET",
+      "async": true
     },
+    "link": "https://teamtreehouse.com/matharris",
+    "link_text": "See more at Team Treehouse >>",
+    "logo": "/images/tth-logo.png"
+  },
   "resume": {
     "experience": [
       {
