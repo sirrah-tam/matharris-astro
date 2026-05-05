@@ -8,17 +8,19 @@ const updates = (await getCollection('updates')).sort(
 
 <Layout title="Now">
   <h1 id="about" class="text-center text-7xl mb-9">Now</h1>
-  <p>Last updated: 2025-11-21</p>
+  <p>Last updated: 2026-05-05</p>
   <p>Here are some of things I'm doing / watching / reading right now!</p>
   <p class="mb-8">(This is a <a href="https://nownownow.com/about" target="_blank">now page</a> and if you have your own site, you should make one, too!).</p>
   <h2 class="mb-4 text-4xl">Current vibes:</h2>
   <p class="mb-4">{updates[0].data.content}</p>
   <a href="/updates" class="block mb-8">View earlier updates</a>
-  <h2 class="mb-4 text-4xl">Currently reading: </h2>
+  <h2 class="mb-4 text-4xl">Books: </h2>
   <ul>
     <li>Audiobooks: 
       <ul class="ml-4 mb-2">
         <li>Recently finished: <a href="https://libro.fm/audiobooks/9780063028081-termination-shock">Termination Shock by Neal Stephenson</a></li>
+        <li>Recently finished: <a href="https://libro.fm/audiobooks/9781478900825-cibola-burn">Cibola Burn by James S. A. Corey</a></li>
+        <li>Currently reading: <a href="https://libro.fm/audiobooks/9781478903956-nemesis-games">Nemesis Games by James S. A. Corey</a></li>
       </ul>
     </li>
     <li>eBook: 
@@ -34,10 +36,11 @@ const updates = (await getCollection('updates')).sort(
       </ul> 
     </li> -->
     <li><a href="/books">2025 Books list</a></li>
+    <li>Ongoing 2026 books list coming soon</li>
   </ul>
   <h2 class="mb-4 text-4xl">Watching / playing / listening:</h2>
   <ul>
-    <li>TV shows: The Pitt, Star Trek: Deep Space Nine (again)</li>
+    <li>TV shows: Shrinking, Star Trek: Deep Space Nine (again)</li>
     <li>Video Games: <a href="https://store.steampowered.com/app/1903340/Clair_Obscur_Expedition_33/" target="_blank">Clair Obscur: Expedition 33</a></li>
     <li>I support public radio! <a href="https://www.opb.org/" target="_blank">91.5 OPB</a></li>
     <li>Daily podcast queue:
