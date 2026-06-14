@@ -107,8 +107,18 @@
   "resume": {
     "experience": [
       {
+        "company": "BECU",
+        "title": "Sr. Software Developer Engineer in Test | Accessibility - June ‘26 - Present",
+        "description": [
+          "Build and scale automated accessibility test suites using Playwright and axe-core to validate WCAG compliance across web and mobile platforms.",
+          "Integrate accessibility checks into Azure DevOps CI/CD pipelines, driving shift-left practices that surface issues earlier in the development lifecycle.",
+          "Partner with developers, architects, and product owners to shape testing strategy and mentor SDETs and QE partners on accessibility testing standards.",
+          "Champion inclusive development practices across cross-functional teams, covering keyboard navigation, focus management, ARIA semantics, and screen reader behaviors."
+        ]
+      },
+      {
         "company": "ITHAKA",
-        "title": "Web Accessibility Lead - Sept ‘22 - Present",
+        "title": "Web Accessibility Lead - Sept ‘22 - June ‘26",
         "description": [
           "Lead ITHAKA’s accessibility strategy across five product lines, ensuring compliance with WCAG, Section 508, and EN 301 549 standards.",
           "Authored and delivered comprehensive accessibility audit reports (supporting VPAT/ACR documentation) and provided compliance consultation to support teams..",
