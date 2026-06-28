@@ -4,83 +4,167 @@
     "title": "The Anthropocene Reviewed",
     "author": "John Green",
     "url": "https://libro.fm/audiobooks/9780593408537-the-anthropocene-reviewed",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
   },
   {
     "id": "2",
     "title": "Make Time: How to Focus on What Matters Every Day",
     "author": "Jake Knapp, John Zeratsky",
     "url": "https://maketime.blog/",
-    "type": "ebook"
+    "type": "ebook",
+    "yearRead": 2025
   },
   {
     "id": "3",
     "title": "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism",
     "author": "Sarah Wynn-Williams",
     "url": "https://libro.fm/audiobooks/9781250403155/",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
   },
   {
     "id": "4",
     "title": "Redshirts",
     "author": "John Scalzi",
     "url": "https://bookshop.org/p/books/redshirts-a-novel-with-three-codas-john-scalzi/126138ee361054ad",
-    "type": "ebook"
+    "type": "ebook",
+    "yearRead": 2025
   },
   {
     "id": "5",
     "title": "Ancillary Justice (Imperial Radch, #1)",
     "author": "Ann Leckie",
     "url": "https://libro.fm/audiobooks/9781549174902-ancillary-justice",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
   },
   {
     "id": "6",
     "title": "Dawn (Xenogenesis #1)",
     "author": "Octavia E. Butler",
     "url": "https://libro.fm/audiobooks/9781668637838-dawn",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
   },
   {
     "id": "7",
     "title": "Alien Clay",
     "author": "Adrian Tchaikovsky",
     "url": "https://libro.fm/audiobooks/9781668642702-alien-clay",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
   },
   {
     "id": "8",
     "title": "Notes on a Nervous Planet",
     "author": "Matt Haig",
     "url": "https://bookshop.org/p/books/notes-on-a-nervous-planet-matt-haig/6675449?ean=9780525505211&digital=t",
-    "type": "ebook"
+    "type": "ebook",
+    "yearRead": 2025
   },
   {
     "id": "9",
     "title": "Translation State",
     "author": "Ann Leckie",
     "url": "https://bookshop.org/p/books/translation-state/18928288?ean=9780316289719",
-    "type": "physical"
+    "type": "physical",
+    "yearRead": 2025
   },
   {
     "id": "10",
     "title": "Ancillary Sword (Imperial Radch, #2)",
     "author": "Ann Leckie",
     "url": "https://libro.fm/audiobooks/9781478931263-ancillary-sword",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
   },
   {
     "id": "11",
     "title": "Ancillary Mercy (Imperial Radch, #3)",
     "author": "Ann Leckie",
     "url": "https://libro.fm/audiobooks/9781478960140-ancillary-mercy",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
   },
   {
     "id": "12",
     "title": "Punishment-Free Parenting: The Brain-Based Way to Raise Kids Without Raising Your Voice",
     "author": "Jon Fogel",
     "url": "https://libro.fm/audiobooks/9798217020294-punishment-free-parenting",
-    "type": "audiobook"
+    "type": "audiobook",
+    "yearRead": 2025
+  },
+  {
+    "id": "13",
+    "title": "The Tombs of Atuan",
+    "author": "Ursula K. Le Guin",
+    "url": "https://libro.fm/audiobooks/9781449840839-the-tombs-of-atuan",
+    "type": "ebook",
+    "yearRead": 2026
+  },
+  {
+    "id": "14",
+    "title": "The Farthest Shore",
+    "author": "Ursula K. Le Guin",
+    "url": "https://bookshop.org/p/books/the-farthest-shore-ursula-k-le-guin/bb6e7653ddc23760",
+    "type": "ebook",
+    "yearRead": 2026
+  },
+  {
+    "id": "15",
+    "title": "Automatic Noodle",
+    "author": "Annalee Newitz",
+    "url": "https://libro.fm/audiobooks/9781668001550-the-last-emperox",
+    "type": "ebook",
+    "yearRead": 2026
+  },
+  {
+    "id": "16",
+    "title": "The Book of Doors",
+    "author": "Gareth Brown",
+    "url": "https://libro.fm/audiobooks/9780063324015-the-book-of-doors",
+    "type": "audiobook",
+    "yearRead": 2026
+  },
+  {
+    "id": "17",
+    "title": "Abaddon’s Gate",
+    "author": "James S.A. Corey",
+    "url": "https://libro.fm/audiobooks/9781549142192",
+    "type": "audiobook",
+    "yearRead": 2026
+  },
+  {
+    "id": "18",
+    "title": "Termination Shock",
+    "author": "Neal Stephenson",
+    "url": "https://libro.fm/audiobooks/9780063028081-termination-shock",
+    "type": "audiobook",
+    "yearRead": 2026
+  },
+  {
+    "id": "19",
+    "title": "Cibola Burn",
+    "author": "James S.A. Corey",
+    "url": "https://libro.fm/audiobooks/9781478900825-cibola-burn",
+    "type": "audiobook",
+    "yearRead": 2026
+  },
+  {
+    "id": "20",
+    "title": "Nemesis Games",
+    "author": "James S.A. Corey",
+    "url": "https://libro.fm/audiobooks/9781478903956-nemesis-games",
+    "type": "audiobook",
+    "yearRead": 2026
+  },
+  {
+    "id": "21",
+    "title": "Red Rising",
+    "author": "Pierce Brown",
+    "url": "https://libro.fm/audiobooks/9781470380281-red-rising",
+    "type": "audiobook",
+    "yearRead": 2026
   }
 ]

@@ -1,18 +1,42 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { getCollection } from 'astro:content';
-const books = await getCollection('books');
+import { getCollection } from "astro:content";
+
+type Book = {
+  id: string;
+  title: string;
+  author: string;
+  url: string;
+  type: string;
+  yearRead: number;
+};
+
+const books = await getCollection("books");
+const allBooks = books.flatMap((entry) => entry.data as Book[]);
+const years = [...new Set(allBooks.map((book) => book.yearRead))].sort((a, b) => b - a);
+const orderedYears = years.includes(2026) ? [2026, ...years.filter((year) => year !== 2026)] : years;
+const booksByYear = orderedYears.map((year) => ({
+  year,
+  books: allBooks.filter((book) => book.yearRead === year),
+}));
 ---
 
-<Layout title="2025 Books I've Read">
-  <h1 id="about" class="text-center text-7xl mb-9">2025 Books I've Read</h1>
-  <p>Here's a list of books I've read in 2025. To see what I'm reading now, check out my <a href="/now">now</a> page.</p>
+<Layout title="Books I've Read">
+  <h1 id="about" class="text-center text-7xl mb-9">Books I've Read</h1>
+  <p>Here's a list of books I've read in the past year or so. To see what I'm reading now, check out my <a href="/now">now</a> page.</p>
   <p>If I'm not able to get something from my local library via <a href="https://libbyapp.com/">Libby</a>, I try to support local bookstores by using <a href="https://bookshop.org/" target="_blank" rel="noopener noreferrer">Bookshop.org</a> for physical books, and I use <a href="https://libro.fm/" target="_blank" rel="noopener noreferrer">Libro.fm</a> for audiobooks.</p>
-  <ol>
-      {books.map(book => (
-        <li><a href={`${book.data.url}`}>{book.data.title} by {book.data.author} ({book.data.type})</a></li>
-      ))}
-  </ol>
+
+  {booksByYear.map(({ year, books }) => (
+    <section class="mb-10">
+      <h2 class="text-5xl mt-7 pb-3 border-b-2">{year}</h2>
+      <ol>
+        {books.map((book) => (
+          <li><a href={book.url}>{book.title} by {book.author} ({book.type})</a></li>
+        ))}
+      </ol>
+    </section>
+  ))}
+
   <p>Last updated: Sept 20, 2025</p>
 </Layout>
 
