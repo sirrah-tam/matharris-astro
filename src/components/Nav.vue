@@ -17,3 +17,13 @@ export default {
   }
 }
 </script>
+
+<style lang="css" scoped>
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+a {
+  @apply no-underline;
+}
+
+</style>
